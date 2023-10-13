@@ -1,10 +1,7 @@
-<div align="center">
-  <img src="https://github.com/mysteriouss3/Discord-Stat-Botu-v14/assets/your-image.png" alt="Bot Image">
-  <h1>Piyasanın En İyi İstatistik Botu</h1>
-  <h6>Mysterious3 Tarafından Yapıldı</h6>
-  <h6>Katkıda Bulunan: <a href="https://github.com/ertucuk">ertu</a></h6>
-  <p>Destek Almak için: <a href="https://discord.gg/luppux">Luppux Sunucusu</a></p>
-</div>
+<h1>Piyasanın En İyi İstatistik Botu</h1>
+<h6>Mysterious3 Tarafından Yapıldı</h6>
+<h6>Katkıda Bulunan: [ertu](https://github.com/ertucuk)</h6>
+<h4>Destek Almak için: [Luppux Sunucusu](https://discord.gg/luppux)</h4>
 
 ---
 
