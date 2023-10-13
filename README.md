@@ -9,11 +9,11 @@
 
 ### Kurulum:
 
-1. Proje Icerisinde ```Providers/Settings/System.js``` Dosyasını Sunucunuza Göre Doldurun
-
 2. Projeyi klonlayın:
 
 ```bash git clone https://github.com/mysteriouss3/Discord-Stat-Botu-v14.git```
+
+Proje Icerisinde ```Providers/Settings/System.js``` Dosyasını Sunucunuza Göre Doldurun
 
 ```npm install```
 
