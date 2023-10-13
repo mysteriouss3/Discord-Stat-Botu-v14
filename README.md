@@ -1,12 +1,16 @@
-<br/>
-
-<div align="center">
+<div align="left">
   <h1>Piyasanın En İyi İstatistik Botu</h1>
-  <h6>Mysterious3 & <a href="https://github.com/ertucuk">ertu</a> Tarafından Yapıldı</h6>
-  <h4>Destek Almak için: <a href="https://discord.gg/luppux">Luppux Sunucusu</a></h4>
+  <p>Mysterious3 Tarafından Yapıldı</p>
+  
+  <p>Katkıda Bulunan: <a href="https://github.com/ertucuk">Ertu</a></p>
+  
+  <p>Destek Almak için: <a href="https://discord.gg/luppux">Luppux Sunucusu</a></p>
 </div>
 
+
+
 ---
+
 
 ### Komutlar:
 
