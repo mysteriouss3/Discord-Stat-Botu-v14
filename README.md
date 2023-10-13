@@ -7,7 +7,12 @@
   <p>Destek Almak için: <a href="https://discord.gg/luppux">Luppux Sunucusu</a></p>
 </div>
 
+### Kurulum:
 
+1. Projeyi klonlayın:
+
+```bash
+git clone https://github.com/mysteriouss3/Discord-Stat-Botu-v14.git
 
 ---
 
