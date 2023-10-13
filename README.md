@@ -19,9 +19,9 @@
 
 ```npm install -g pm2```
 
-```pm2 start```
+```pm2 start``` kullanarak botu başlatın
 
-Botu Başlatın
+
 
 
 
