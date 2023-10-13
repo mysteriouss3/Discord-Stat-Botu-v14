@@ -2,8 +2,6 @@ const { Events, EmbedBuilder, ChannelType, PermissionsBitField: { Flags }, Messa
 const { GetTop } = require('../../Extras/ModelUser/Get.Top');
 const { TimeManager } = require('../../Extras/TimeManager');
 
-const serverQueue = [];
-
 /**
  * @param {Message} message 
  * @param {Client} client
@@ -11,19 +9,10 @@ const serverQueue = [];
 module.exports = async (client) => {
     // Her sunucudaki mesajları güncellemek için döngüyü başlat
     setInterval(async () => {
-        client.guilds.cache.forEach(guild => serverQueue.push(guild.id));
 
-        if (serverQueue.length === 0) {
-            // Kuyruk boşsa, baştan başlat
-            serverQueue.push(...client.guilds.cache.map(guild => guild.id));
-        }
+        await fetchDataAndSend(System.ServerID);
 
-        // Kuyruktan bir sonraki sunucu ID'sini al
-        const serverId = serverQueue.shift();
-
-        await fetchDataAndSend(serverId);
-
-    }, 1 * 60 * 1000); // 40 saniye
+    }, 5 * 1000 * 60); // 40 saniye
 
     let leaderboardMessages = {};
     let fetchedMessages = '';
@@ -179,7 +168,7 @@ module.exports = async (client) => {
             })
         } catch (error) {
             console.log(error)
-            console.error(`${guild.name} : Sunucunda LeaderBoard Kanalında Botun Listelendirdiği Mesajı Silindi.`);
+            console.error(`LeaderBoard Kanalında Botun Listelendirdiği Mesajı Silindi.`);
         }
     }
 
