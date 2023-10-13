@@ -9,7 +9,7 @@
 
 ### Kurulum:
 
-1. Proje Icerisinde Providers/Settings/System.js Dosyasını Sunucunuza Göre Doldurun
+1. Proje Icerisinde ```Providers/Settings/System.js``` Dosyasını Sunucunuza Göre Doldurun
 
 2. Projeyi klonlayın:
 
