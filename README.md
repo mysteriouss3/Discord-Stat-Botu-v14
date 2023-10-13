@@ -9,22 +9,30 @@
 
 ### Kurulum:
 
-2. Projeyi klonlayın:
+1. Projeyi klonlayın:
 
-```bash git clone https://github.com/mysteriouss3/Discord-Stat-Botu-v14.git```
+```bash 
+git clone https://github.com/mysteriouss3/Discord-Stat-Botu-v14.git
+```
+2. Proje icerisinde System.js doldurun.
+```bash
+Providers/Settings/System.js
+```
+3. Npm modullerini indirin.
 
-Proje Icerisinde ```Providers/Settings/System.js``` Dosyasını Sunucunuza Göre Doldurun
+```bash
+npm install
+```
+4. Pm2 kurun.
 
-```npm install```
+```bash
+npm install -g pm2
+```
 
-```npm install -g pm2```
-
-```pm2 start``` kullanarak botu başlatın
-
-
-
-
-
+5. Botu çalıştırın.
+```bash
+pm2 start
+```
 
 ---
 
