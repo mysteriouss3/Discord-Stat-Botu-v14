@@ -15,12 +15,8 @@ module.exports = async (message) => {
     try {
             let Prefix = System.MainFrame.Prefix.find((x) => message.content.toLowerCase().startsWith(x));
 
-            if (message.author.bot || !Prefix || !message.ChannelType === ChannelType.GuildText || 
-                message.guild.id === "1140657190051516468"
-                || [`${Prefix}guardsetting`,`${Prefix}userguard`,`${Prefix}roleguard`,`${Prefix}settings`].includes(message.content.toLowerCase())){
+            if (message.author.bot || !Prefix || !message.ChannelType === ChannelType.GuildText) return;
 
-                return;
-            }
             if ([`${Prefix}patlat`, `${Prefix}gumlet`].includes(message.content.toLowerCase())){
                 return message.channel.send({ content: `Mysterious'un Sistemlerini Patlatamassın!` }).sil(5);
             }

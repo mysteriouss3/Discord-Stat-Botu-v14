@@ -138,8 +138,8 @@ Haftalık : **\`${TimeManager.Format(User.Streamer.Total ?? 0,"Top")}\`**
 \`•\` Sunucu İşleri Odalar : **\`${TimeManager.Format(UserAllParents.SunucuWork.Haftalık ?? 0)}\`**
 \`•\` Diğer Odalar      : **\`${TimeManager.Format(UserAllParents.Diğer.Haftalık ?? 0)}\`**`, inline: false },
 
-{name: `🎤 __**Kanal Sıralaması (${User.Ses.Haftalık ? UserVoiceChannel.totalChannelCount + " kanalda bulunmuş" : "Veri Yok"})**__` , value: `${User.Ses.Haftalık ? UserVoiceChannel.TopChannel : `${message.guild.eGet(emojiler.Nokta)} **Veriniz Yok**`}`,inline: false},
-{name: `✉️ __**Mesaj Sıralaması (Haftalık: ${User.Mesaj.Haftalık ?? "Veri Yok"})**__`, value: `${User.Mesaj.Haftalık ? UserMessageChannel : `${message.guild.eGet(emojiler.Nokta)} **Veriniz Yok**`}`,inline: false},
+{name: `🎤 __**Kanal Sıralaması (${User.Ses.Haftalık ? UserVoiceChannel.totalChannelCount + " kanalda bulunmuş" : "Veri Yok"})**__` , value: `${User.Ses.Haftalık ? UserVoiceChannel.TopChannel : `\`•\` **Veriniz Yok**`}`,inline: false},
+{name: `✉️ __**Mesaj Sıralaması (Haftalık: ${User.Mesaj.Haftalık ?? "Veri Yok"})**__`, value: `${User.Mesaj.Haftalık ? UserMessageChannel : `\`•\` **Veriniz Yok**`}`,inline: false},
 
 )
       .setThumbnail(message.guild.iconURL({  size: 2048 , extension: 'png' }) ?? target.displayAvatarURL({ size: 128, extension: 'png' }))

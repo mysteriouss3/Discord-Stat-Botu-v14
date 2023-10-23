@@ -30,8 +30,6 @@ module.exports = async (client) => {
             const guild = await client.guilds.fetch(guildId);
             await new Promise(resolve => setTimeout(resolve, 200));
 
-            if(guild.id === '1140657190051516468') return;
-
             const existingChannel = guild.channels.cache.find(ch => ch.name === channelName);
             if (!existingChannel) {
                 try {
