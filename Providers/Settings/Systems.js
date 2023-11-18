@@ -16,8 +16,8 @@ module.exports = {
     ],
 
     MainFrame: {
-        DataBase: "",
-        Main: "",
+        TokenDataBase: "",
+        TokenMain: "",
         
         Prefix: [
             ".",

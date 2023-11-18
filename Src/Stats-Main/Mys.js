@@ -14,7 +14,7 @@ DB.Connect();
 
 ClientServices.sistemGereksinimleri()
 
-client.login(System.MainFrame.Main).then(() =>console.log(`🟢 ${client.user.username} Başarıyla Giriş Yaptı!`))
+client.login(System.MainFrame.TokenMain).then(() =>console.log(`🟢 ${client.user.username} Başarıyla Giriş Yaptı!`))
 .catch((err) => console.log(`🔴 Bot Giriş Yapamadı / Sebep: ${err}`));
 
 
