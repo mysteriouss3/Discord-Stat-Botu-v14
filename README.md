@@ -1,6 +1,6 @@
 <div align="left">
   <h1>Piyasanın En İyi İstatistik Botu</h1>
-  <p>Mysterious3 Tarafından Yapıldı</p>
+  <p>mys_terious3 Tarafından Yapıldı</p>
   
   <p>Katkıda Bulunan: <a href="https://github.com/ertucuk">Ertu</a></p>
   
